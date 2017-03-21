@@ -2,8 +2,8 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross gnome2
 
 NAME="mingw64-x86_64-gtkspell3"
-VERSION=3.0.4
-RELEASE=2
+VERSION=3.0.9
+RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GTK3 spell correction widget library for Win64 toolchain"
 DESCRIPTION="GtkSpell provides word-processor-style highlighting and
@@ -11,7 +11,7 @@ replacement of misspelled words in a GtkTextView widget. Right-clicking
 a misspelled word pops up a menu of suggested replacements."
 REQUIRES="mingw64-x86_64-iso-codes"
 HOMEPAGE="http://gtkspell.sourceforge.net/"
-SRC_URI="http://gtkspell.sourceforge.net/download/gtkspell3-${VERSION}.tar.gz"
+SRC_URI="mirror://sourceforge/gtkspell/gtkspell3-${VERSION}.tar.xz"
 SRC_DIR="gtkspell3-${VERSION}"
 
 DISTCLEANFILES="gtkspell/*.pc"
